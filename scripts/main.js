@@ -7,9 +7,9 @@ const myImage = document.querySelector("img");
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
   if (mySrc === "images/wild-giraffe.png") {
-    myImage.setAttribute("src", "images/wild-elephant.png");
+    myImage.setAttribute("src","images/wild-elephant.png");
   } else {
-    myImage.setAttribute("src", "images/wild-giraffe.png");
+    myImage.setAttribute("src","images/wild-giraffe.png");
   }
 });
 
@@ -32,4 +32,5 @@ if (!localStorage.getItem("name")) {
 myButton.addEventListener("click", () => {
   setUserName();
 });
+
 
