@@ -4,7 +4,7 @@
 //myHeading.textContent = "Hello world!";
 
 const myimage = document.querySelector("img");
-myImage.addEventListener("click", () => {
+myimage.addEventListener("click", () => {
   const mysrc = myimage.getAttribute("src");
   if (mysrc === "images/wild-giraffe.png") {
     myimage.setAttribute("src","images/wild-elephant.png");
@@ -32,6 +32,7 @@ if (!localStorage.getItem("name")) {
 myButton.addEventListener("click", () => {
   setUserName();
 });
+
 
 
 
