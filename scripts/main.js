@@ -3,7 +3,7 @@
 // Update the text content of the <h1>
 //myHeading.textContent = "Hello world!";
 
-const myImage = document.querySelector("img");
+const myimage = document.querySelector("img");
 myImage.addEventListener("click", () => {
   const mysrc = myimage.getAttribute("src");
   if (mysrc === "images/wild-giraffe.png") {
@@ -32,6 +32,7 @@ if (!localStorage.getItem("name")) {
 myButton.addEventListener("click", () => {
   setUserName();
 });
+
 
 
 
